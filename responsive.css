@@ -1,0 +1,53 @@
+@media screen and (max-width:1000px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 17px 0px -15px -5px;
+    }
+
+    nav ul {
+        justify-content: center;
+        margin: 15px 3px 0 0;
+        height: 43px;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 136px;
+        padding: 4px 0px;
+    }
+
+    .slider{
+        overflow: hidden;
+        height: 45vh;
+        width: 80vw;
+    }
+
+    .card-item img{
+        width: 140px;
+    }
+
+    .line1{
+        margin: 0 -25vw;
+    }
+
+    .lines{
+        width: 100px;
+    }
+
+    .cards{
+        overflow: scroll;
+    }
+
+    .card{
+        max-width: 90vw;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+}
